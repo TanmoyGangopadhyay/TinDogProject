@@ -1,0 +1,164 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    
+    overflow-x: hidden;
+
+} 
+
+#title {
+    background-color: #ff4c68;
+    color: white;
+    
+}
+
+h1 {
+    font-family: Montserrat;
+    /* font-size: xx-large;  */
+    font-size: 3.5rem;
+    line-height: auto;
+    font-display: var(--bs-navbar-toggler-focus-width);
+    font-weight: 900; /* black */
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3%;
+}
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+ 
+p{
+    color: #8f8f8f;
+}
+.container {
+    padding: 3% 15%;
+    margin: 0;
+}
+
+/* Navigation Bar */
+
+
+
+
+#navfontlg {
+    font-family: 'Ubuntu';
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.navbar {
+    padding-bottom: 4.5rem;
+    --bs-navbar-brand-padding-y: 0.3125rem;
+    --bs-navbar-brand-margin-end: 1rem;
+    --bs-navbar-brand-font-size: 1.25rem;
+    --bs-navbar-toggler-border-radius: 0.375rem;
+    --bs-navbar-toggler-focus-width: 0.25rem;
+    --bs-navbar-toggler-transition: box-shadow 0.15s ease-in-out;
+    position: relative;
+    display: flex;
+    padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x);
+
+
+
+}
+
+#navfontlg {
+    font-family: 'Ubuntu';
+    font-size: 300%;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: Montserrat-light;
+}
+
+
+/* Download Buttons */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+
+
+.boldfonth {
+    font-family: Montserrat;
+    font-size: xx-large;
+    line-height: auto;
+    font-display: var(--bs-navbar-toggler-focus-width);
+    font-weight: 900;
+}
+
+/* Download Buttons */
+
+.download-button {
+    margin: 5% 3% 5% 0%;
+}
+
+
+
+/* Tittle Image  */
+
+.tittle-image{
+    width: 60%;
+    transform: rotate(25deg);
+}
+
+
+/* Features Section  */
+
+#features {
+    padding: 7% 15%;
+}
+
+.feature-box  {
+    text-align: center;
+    padding: 5%;
+
+}
+
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: #ff4c68;
+}
+
+
+
+/* Testimonial Section  */
+#testimonials {
+
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonials-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 10% 20%;
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
